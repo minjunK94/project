@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>분석 결과</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .image-preview {
+            max-height: 300px;
+            object-fit: cover;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+        }
+        .card {
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        .result-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <div class="card p-4">
+                    <h2 class="text-center text-primary mb-4">이미지 예측 결과</h2>
+                   <div class="row">
+                        <!-- Left column: Image preview -->
+                        <div class="col-md-6 text-center">
+                            <h4 class="mb-3">업로드된 이미지</h4>
+                            {% if uploaded_image %}
+                                <img src="{{ uploaded_image }}" alt="업로드된 이미지" class="image-preview img-thumbnail" width="200">
+                            {% else %}
+                                <img src="/static/default-image.jpg" alt="기본 이미지" class="image-preview img-thumbnail" width="200">
+                                <p class="text-muted mt-2">이미지를 찾을 수 없습니다.</p>
+                            {% endif %}
+                        </div>
+                        <!-- Right column: Analysis result -->
+                        <div class="col-md-6">
+                            <h4 class="mb-3">해당 이미지 예측 결과</h4>
+                            <h5 class="text-success result-title">예측 결과: {{ result_korean }}</h5>
+                            <p class="text-muted">(English: {{ result_english }})</p>
+                            {% if wiki_description %}
+                                <p>{{ wiki_description }}</p>
+                            {% else %}
+                                <p class="text-muted">설명을 찾을 수 없습니다.</p>
+                            {% endif %}
+                        </div>
+                   </div>
+                    <div class="text-center mt-4">
+                        <a href="/" class="btn btn-primary">
+                            <i class="fas fa-home"></i> 홈으로 돌아가기
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
