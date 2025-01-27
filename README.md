@@ -34,12 +34,13 @@
 ## 1. 주제선정 및 이유
 ![Image](https://github.com/user-attachments/assets/2eab69b0-6352-4a8e-bc1e-d13bdbcc281c)
 ## 2. Open Source 및 개발환경
-
+![Image](https://github.com/user-attachments/assets/0b37fa41-3ad5-48e0-9a69-d6ab64b9d749)
 ## 3. Gantt Chart
-
+![Image](https://github.com/user-attachments/assets/d6bf6db6-9128-48cf-bc4e-ce3ee5e92a73)
 ## 4. CNN
-
+![Image](https://github.com/user-attachments/assets/4800c8c6-d8de-4a96-a2a0-ce71a702f8d5)
 ## 5. 웹구현
-
+![Image](https://github.com/user-attachments/assets/7ed1d580-ee27-497f-985e-142a6233fdc4)
 ## 6. 차후 수정 방향
-<img src="">
+![Image](https://github.com/user-attachments/assets/d362ec80-7e1b-4f0c-b6d4-27016631bded)
+![Image](https://github.com/user-attachments/assets/16aa24ce-a406-4a65-bc72-a96639eb913e)
