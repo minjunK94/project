@@ -32,7 +32,7 @@
 [6. 차후 수정 방향](https://github.com/minjunK94/project?tab=readme-ov-file#6-차후-수정-방향)<br>
 
 ## 1. 주제선정 및 이유
-
+![Image](https://github.com/user-attachments/assets/2eab69b0-6352-4a8e-bc1e-d13bdbcc281c)
 ## 2. Open Source 및 개발환경
 
 ## 3. Gantt Chart
