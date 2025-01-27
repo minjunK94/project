@@ -24,12 +24,12 @@
 </div>
 
 # 목차
-[1. 주제선정 및 이유](http)<br>
-[2. Gantt Chart](http)<br>
-[3. Open Source 및 개발환경](http)<br>
-[4. CNN](http)<br>
-[5. 웹구현](http)<br>
-[6. 차후 수정 방향](http)<br>
+[1. 주제선정 및 이유](https://github.com/minjunK94/project?tab=readme-ov-file#1-주제선정-및-이유)<br>
+[2. Open Source 및 개발환경](https://github.com/minjunK94/project?tab=readme-ov-file#2-open-source-및-개발환경)<br>
+[3. Gantt Chart](https://github.com/minjunK94/project?tab=readme-ov-file#3-gantt-chart)<br>
+[4. CNN](https://github.com/minjunK94/project?tab=readme-ov-file#4-cnn)<br>
+[5. 웹구현](https://github.com/minjunK94/project?tab=readme-ov-file#5-웹구현)<br>
+[6. 차후 수정 방향](https://github.com/minjunK94/project?tab=readme-ov-file#6-차후-수정-방향)<br>
 
 ## 1. 주제선정 및 이유
 
@@ -39,7 +39,7 @@
 
 ## 4. CNN
 
-## 5. 웹구현 Page
+## 5. 웹구현
 
 ## 6. 차후 수정 방향
 <img src="">
